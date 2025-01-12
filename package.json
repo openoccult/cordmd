@@ -1,0 +1,24 @@
+{
+  "name": "cordmd",
+  "version": "1.0.0",
+  "description": "A markdown validator, enhancer and image generator for Discord bots.",
+  "license": "AGPL-3.0-only",
+  "author": "openoccult",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "markdown",
+    "validator",
+    "enhancer",
+    "generator",
+    "image-generator"
+  ],
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.65"
+  }
+}
